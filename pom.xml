@@ -18,6 +18,7 @@
       <module>clond-provider-hystrix-payment8001</module>
       <module>clond-gateway-gateway9527</module>
       <module>jedis-study</module>
+      <module>desingPattern</module>
   </modules>
   <packaging>pom</packaging>
 
