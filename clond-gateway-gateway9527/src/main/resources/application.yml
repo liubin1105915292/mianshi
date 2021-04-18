@@ -1,0 +1,14 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: clond-gateway
+
+eureka:
+  instance:
+    hostname: clond-gateway-service
+  client:
+    service-url:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://eureka7001.com:7001/eureka
