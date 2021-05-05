@@ -23,8 +23,12 @@
     <file url="file://$PROJECT_DIR$/desingPattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jedis-study/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jedis-study/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-consumer83/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-consumer83/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-payment-service9001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-payment-service9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-payment-service9002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-payment-service9002/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootRedis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootRedis/src/main/resources" charset="UTF-8" />
   </component>

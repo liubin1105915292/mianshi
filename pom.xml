@@ -21,6 +21,8 @@
     <module>desingPattern</module>
    <module>springbootRedis</module>
     <module>nacos-payment-service9001</module>
+    <module>nacos-payment-service9002</module>
+      <module>nacos-consumer83</module>
   </modules>
   <packaging>pom</packaging>
 

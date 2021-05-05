@@ -17,6 +17,8 @@
         <module name="clond-provider-hystrix-payment8001" />
         <module name="desingPattern" />
         <module name="clond-consumer-order80" />
+        <module name="nacos-consumer" />
+        <module name="nacos-payment-service9002" />
         <module name="nacos-payment-service" />
         <module name="clond-provider-payment8001" />
         <module name="clond-provider-payment8002" />
