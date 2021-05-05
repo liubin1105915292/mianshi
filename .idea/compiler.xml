@@ -7,17 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="clond-eureka-server7001" />
-        <module name="clond-eureka-server7002" />
-        <module name="clond-provider-hystrix-payment8001" />
         <module name="clond-gateway-gateway9527" />
-        <module name="clond-consumer-order80" />
-        <module name="clond-provider-payment8001" />
         <module name="clond-consumer-feign-order80" />
-        <module name="clond-provider-payment8002" />
         <module name="jedis-study" />
         <module name="clond-api-common" />
+        <module name="clond-eureka-server7001" />
+        <module name="clond-eureka-server7002" />
+        <module name="springbootRedis" />
+        <module name="clond-provider-hystrix-payment8001" />
+        <module name="desingPattern" />
+        <module name="clond-consumer-order80" />
+        <module name="nacos-payment-service" />
+        <module name="clond-provider-payment8001" />
+        <module name="clond-provider-payment8002" />
+        <module name="nacos-payment-service9001" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nacos-payment-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="clound2020" options="-parameters" />
+    </option>
   </component>
 </project>

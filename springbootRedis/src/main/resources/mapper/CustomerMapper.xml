@@ -9,19 +9,18 @@
 
     <update id="updateCustomer" parameterType="com.atguigu.springclond.entities.Customer">
         update customers
-        <set>
+        <trim prefix="set" suffixOverrides=",">
             <if test="company!=null and company!=''">
-                 company=#{company}
+                 company=#{company},
             </if>
             <if test="dep_code!=null and dep_code!=''">
-                 CUST_REP=#{dep_code}
+                 CUST_REP=#{dep_code},
             </if>
             <if test="money!=null and money!=''">
-                 CREDIT_LIMIT=#{money}
+                 CREDIT_LIMIT=#{money},
             </if>
-            where CUST_NUM=#{cus_num}
-        </set>
-
+        </trim>
+        where CUST_NUM=#{cus_num}
     </update>
 
     <resultMap id="customerMap" type="com.atguigu.springclond.entities.Customer">
