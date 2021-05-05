@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.luki.redis.dao.CustomerDao">
+
+    <insert id="addCustomer" parameterType="com.atguigu.springclond.entities.Customer" >
+        insert into customers(CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values(#{cus_num},#{company},#{dep_code},#{money})
+    </insert>
+
+    <update id="updateCustomer" parameterType="com.atguigu.springclond.entities.Customer">
+        update customers
+        <set>
+            <if test="company!=null and company!=''">
+                 company=#{company}
+            </if>
+            <if test="dep_code!=null and dep_code!=''">
+                 CUST_REP=#{dep_code}
+            </if>
+            <if test="money!=null and money!=''">
+                 CREDIT_LIMIT=#{money}
+            </if>
+            where CUST_NUM=#{cus_num}
+        </set>
+
+    </update>
+
+    <resultMap id="customerMap" type="com.atguigu.springclond.entities.Customer">
+        <id column="CUST_NUM" property="cus_num"/>
+        <id column="COMPANY" property="company"/>
+        <id column="CUST_REP" property="dep_code"/>
+        <id column="CREDIT_LIMIT" property="money"/>
+    </resultMap>
+    <select id="queryCustomer" parameterType="com.atguigu.springclond.entities.Customer" resultMap="customerMap">
+        select * from customers where  CUST_NUM=#{cus_num}
+        <if test="company!=null and company!=''">
+            and company=#{company}
+        </if>
+        <if test="dep_code!=null and dep_code!=''">
+            and CUST_REP=#{dep_code}
+        </if>
+        <if test="money!=null and money!=''">
+            and CREDIT_LIMIT=#{money}
+        </if>
+    </select>
+</mapper>

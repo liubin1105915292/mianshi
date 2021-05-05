@@ -14,11 +14,13 @@
     <module>clond-eureka-server7001</module>
     <module>clond-eureka-server7002</module>
     <module>clond-provider-payment8002</module>
-      <module>clond-consumer-feign-order80</module>
-      <module>clond-provider-hystrix-payment8001</module>
-      <module>clond-gateway-gateway9527</module>
-      <module>jedis-study</module>
-      <module>desingPattern</module>
+    <module>clond-consumer-feign-order80</module>
+    <module>clond-provider-hystrix-payment8001</module>
+    <module>clond-gateway-gateway9527</module>
+    <module>jedis-study</module>
+    <module>desingPattern</module>
+   <module>springbootRedis</module>
+    <module>nacos-payment-service9001</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -46,6 +48,14 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>2.2.0.RELEASE</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-config -->
       <!--spring cloud Hoxton.SR1-->
       <dependency>
         <groupId>org.springframework.cloud</groupId>

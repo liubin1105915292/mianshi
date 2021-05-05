@@ -8,7 +8,7 @@ import redis.clients.jedis.Jedis;
  **/
 public class ListTest {
     public static void main(String[] args) {
-        Jedis jedis = new Jedis("192.168.0.107", 6379);
+        Jedis jedis = new Jedis("192.168.0.109", 6379);
         Long list1 = jedis.lpush("list1", "1", "2", "5");
         System.out.println(jedis.lrange("list1",0,-1));
         Long list11 = jedis.lpush("list1", "6", "7");
