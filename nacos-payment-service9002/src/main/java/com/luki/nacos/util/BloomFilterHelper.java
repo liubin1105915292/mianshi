@@ -1,4 +1,4 @@
-package nacos.util;
+package com.luki.nacos.util;
 
 import com.google.common.base.Preconditions;
 import com.google.common.hash.Funnel;

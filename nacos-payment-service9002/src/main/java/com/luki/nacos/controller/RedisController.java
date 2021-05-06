@@ -1,14 +1,15 @@
-package nacos.controller;
+package com.luki.nacos.controller;
 
 import com.atguigu.springclond.entities.CommonResult;
 import com.atguigu.springclond.entities.Customer;
 import com.google.common.base.Charsets;
 import com.google.common.hash.Funnel;
+import com.luki.nacos.service.CustomerService;
+import com.luki.nacos.util.BloomFilterHelper;
+import com.luki.nacos.util.RedisBloomFilter;
 import lombok.extern.slf4j.Slf4j;
-import nacos.service.CustomerService;
-import nacos.util.BloomFilterHelper;
-import nacos.util.RedisBloomFilter;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,6 +21,7 @@ import javax.annotation.Resource;
  **/
 @RestController
 @Slf4j
+@RefreshScope
 public class RedisController {
     @Resource
     private RedisTemplate<Object, Object> redis;

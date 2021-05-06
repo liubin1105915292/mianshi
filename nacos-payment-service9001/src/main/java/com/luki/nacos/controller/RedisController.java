@@ -9,6 +9,7 @@ import com.luki.nacos.util.BloomFilterHelper;
 import com.luki.nacos.util.RedisBloomFilter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,6 +21,7 @@ import javax.annotation.Resource;
  **/
 @RestController
 @Slf4j
+@RefreshScope
 public class RedisController {
     @Resource
     private RedisTemplate<Object, Object> redis;

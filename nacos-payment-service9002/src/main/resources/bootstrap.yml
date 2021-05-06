@@ -1,0 +1,20 @@
+#server.port=9002
+#spring.redis.host=192.168.0.109
+#spring.redis.port=6379
+#spring.application.name=nacos-provider
+#spring.cloud.nacos.config.server-addr=127.0.0.1:8848
+#management.endpoints.web.exposure.include=*
+server:
+  port: 9002
+spring:
+  application:
+    name: nacos-provider
+  cloud:
+    nacos:
+      config:
+        #配置文件从nacos配置中心读取
+        server-addr: localhost:8848
+        file-extension: yaml
+      discovery:
+        server-addr: localhost:8848
+

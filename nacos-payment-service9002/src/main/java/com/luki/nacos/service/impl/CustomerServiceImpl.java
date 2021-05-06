@@ -1,8 +1,8 @@
-package nacos.service.impl;
+package com.luki.nacos.service.impl;
 
 import com.atguigu.springclond.entities.Customer;
-import nacos.dao.CustomerDao;
-import nacos.service.CustomerService;
+import com.luki.nacos.dao.CustomerDao;
+import com.luki.nacos.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -23,6 +23,7 @@
     <module>nacos-payment-service9001</module>
     <module>nacos-payment-service9002</module>
       <module>nacos-consumer83</module>
+    <module>cloudalibaba-config-nacos-client3377</module>
   </modules>
   <packaging>pom</packaging>
 

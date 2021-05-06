@@ -1,4 +1,4 @@
-package nacos.dao;
+package com.luki.nacos.dao;
 
 import com.atguigu.springclond.entities.Customer;
 import org.apache.ibatis.annotations.Mapper;
