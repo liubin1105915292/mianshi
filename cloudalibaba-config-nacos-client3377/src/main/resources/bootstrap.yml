@@ -10,5 +10,7 @@ spring:
       config:
         server-addr: localhost:8848
         file-extension: yaml #指定yaml格式的配置
+        #namespace:命名空间ID
+        #group:分组名
 
 #${spring.application.name}-${spring.profiles.active}.${file-extension}

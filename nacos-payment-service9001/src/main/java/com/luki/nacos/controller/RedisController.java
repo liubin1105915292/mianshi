@@ -1,11 +1,13 @@
 package com.luki.nacos.controller;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.atguigu.springclond.entities.CommonResult;
 import com.atguigu.springclond.entities.Customer;
 import com.google.common.base.Charsets;
 import com.google.common.hash.Funnel;
 import com.luki.nacos.service.CustomerService;
 import com.luki.nacos.util.BloomFilterHelper;
+import com.luki.nacos.util.IdGeneratorSnowflake;
 import com.luki.nacos.util.RedisBloomFilter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -14,6 +16,8 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * auther win
@@ -29,6 +33,8 @@ public class RedisController {
     private CustomerService service;
     @Resource
     private RedisBloomFilter redisBloomFilter;
+    @Resource
+    private IdGeneratorSnowflake snowflake;
     @Value("${server.port}")
     private Integer port;
 
@@ -61,6 +67,7 @@ public class RedisController {
     }
 
     @RequestMapping("query")
+    @SentinelResource
     public CommonResult queryCustomer(@RequestBody Customer customer) {
         log.info("queryCustomer customer:" + customer);
         CommonResult<Customer> result = new CommonResult<>();
@@ -104,6 +111,7 @@ public class RedisController {
      * return com.atguigu.springclond.entities.CommonResult
      */
     @RequestMapping("add")
+    @SentinelResource
     public CommonResult addCustomer(@RequestBody Customer customer) {
         CommonResult<Customer> result = new CommonResult<>();
         try {
@@ -162,4 +170,22 @@ public class RedisController {
         }
         return result;
     }
+
+    @RequestMapping("test")
+    public String test(){
+        return "test";
+    }
+
+    public String getIDBySnowflake(){
+        ExecutorService executor = Executors.newFixedThreadPool(5);
+        for (int i=1;i<=20;i++){
+            executor.submit(()->{
+                long l = snowflake.snowflakeId();
+                System.out.println(l);
+            });
+        }
+        executor.shutdown();
+        return "ok";
+    }
+
 }

@@ -29,30 +29,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="219b5470-3336-4a98-b36e-76bcfd8f281b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/luki/nacos/ConfigClient3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/luki/nacos/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-payment-service9001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-payment-service9001/src/main/resources/mapper/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-payment-service9001/src/main/resources/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-payment-service9002/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-payment-service9001/src/main/java/com/luki/nacos/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-payment-service9001/src/main/java/com/luki/nacos/util/IdGeneratorSnowflake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/luki/nacos/controller/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/luki/nacos/controller/ConfigClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos-payment-service9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-payment-service9001/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos-payment-service9001/src/main/java/com/luki/nacos/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-payment-service9001/src/main/java/com/luki/nacos/controller/RedisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-payment-service9001/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos-payment-service9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-payment-service9001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-payment-service9002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-payment-service9002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-payment-service9002/src/main/java/nacos/NacosApplication9002.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-payment-service9002/src/main/java/nacos/controller/RedisController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-payment-service9002/src/main/java/nacos/dao/CustomerDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-payment-service9002/src/main/java/nacos/service/CustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-payment-service9002/src/main/java/nacos/service/impl/CustomerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-payment-service9002/src/main/java/nacos/util/BloomFilterHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-payment-service9002/src/main/java/nacos/util/RedisBloomFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-payment-service9002/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-payment-service9002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-payment-service9002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-payment-service9001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-payment-service9001/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +93,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nacos-payment-service9001/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/luki/nacos" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14921875" />
@@ -121,20 +105,40 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\clound2020\cloudalibaba-config-nacos-client3377\src\main\java\com\luki\nacos" />
       <recent name="D:\clound2020\nacos-payment-service9001\src\main\resources" />
       <recent name="D:\clound2020\nacos-payment-service9002\src\main\java" />
       <recent name="D:\clound2020\nacos-payment-service9002\src\main\resources" />
       <recent name="D:\clound2020\nacos-payment-service9001\src\main\java\com\luki\nacos" />
-      <recent name="D:\clound2020\clond-provider-payment8002\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosApplication9001">
-    <configuration name="RedisController (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luki.nacos.controller.RedisController" />
+  <component name="RunManager" selected="Spring Boot.ConfigClient3377">
+    <configuration name="IdGeneratorSnowflake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luki.nacos.util.IdGeneratorSnowflake" />
       <module name="nacos-payment-service9001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luki.nacos.controller.*" />
+          <option name="PATTERN" value="com.luki.nacos.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="nacos-payment-service9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luki.nacos.Test" />
+      <module name="nacos-payment-service9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luki.nacos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,19 +166,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luki.nacos.ConfigClient3377" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Consumer83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="nacos-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luki.nacos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luki.nacos.Consumer83" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,19 +200,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luki.nacos.NacosApplication9001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NacosApplication9002 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="nacos-payment-service9002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luki.nacos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luki.nacos.NacosApplication9002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -272,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NacosApplication9001" />
-        <item itemvalue="Spring Boot.NacosApplication9002 (1)" />
         <item itemvalue="Spring Boot.ConfigClient3377" />
-        <item itemvalue="Spring Boot.Consumer83" />
-        <item itemvalue="Application.RedisController (1)" />
+        <item itemvalue="Spring Boot.NacosApplication9001" />
+        <item itemvalue="Application.IdGeneratorSnowflake" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +310,11 @@
       <workItem from="1620186464854" duration="8903000" />
       <workItem from="1620205003428" duration="2358000" />
       <workItem from="1620207392676" duration="13991000" />
-      <workItem from="1620301116686" duration="7008000" />
+      <workItem from="1620301116686" duration="8609000" />
+      <workItem from="1620389537462" duration="4868000" />
+      <workItem from="1620553117265" duration="1368000" />
+      <workItem from="1620644000196" duration="5667000" />
+      <workItem from="1620738888417" duration="2730000" />
     </task>
     <task id="LOCAL-00001" summary="创建设计模式项目">
       <created>1618756575486</created>
@@ -410,10 +392,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="824" y="376" key="#Custom_Plugin_Repositories/0.0.1920.1040@0.0.1920.1040" timestamp="1615983908364" />
-    <state x="184" y="0" key="#Project_Structure" timestamp="1620205549950">
+    <state x="184" y="0" key="#Project_Structure" timestamp="1620644466918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="0" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1620205549950" />
+    <state x="184" y="0" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1620644466918" />
     <state x="0" y="292" key="#SQL_Dialects" timestamp="1620202667097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -458,10 +440,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="696" y="96" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618756927189" />
-    <state x="559" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620308092158">
+    <state x="559" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620741080211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="559" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620308092158" />
+    <state x="559" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620741080211" />
     <state x="370" y="0" key="CommitChangelistDialog2" timestamp="1620208040129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -478,54 +460,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="407" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620139792347" />
-    <state width="1852" height="205" key="GridCell.Tab.0.bottom" timestamp="1620308138559">
+    <state width="1852" height="262" key="GridCell.Tab.0.bottom" timestamp="1620740778727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620308138559" />
-    <state width="1852" height="205" key="GridCell.Tab.0.center" timestamp="1620308138558">
+    <state width="1852" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620740778727" />
+    <state width="1852" height="262" key="GridCell.Tab.0.center" timestamp="1620740778727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="205" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620308138558" />
-    <state width="1852" height="205" key="GridCell.Tab.0.left" timestamp="1620308138558">
+    <state width="1852" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620740778727" />
+    <state width="1852" height="262" key="GridCell.Tab.0.left" timestamp="1620740778727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="205" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620308138558" />
-    <state width="1852" height="205" key="GridCell.Tab.0.right" timestamp="1620308138559">
+    <state width="1852" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620740778727" />
+    <state width="1852" height="262" key="GridCell.Tab.0.right" timestamp="1620740778727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620308138559" />
-    <state width="1852" height="205" key="GridCell.Tab.1.bottom" timestamp="1620308138559">
+    <state width="1852" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620740778727" />
+    <state width="1852" height="478" key="GridCell.Tab.1.bottom" timestamp="1620649287812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="205" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620308138559" />
-    <state width="1852" height="205" key="GridCell.Tab.1.center" timestamp="1620308138559">
+    <state width="1852" height="478" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620649287812" />
+    <state width="1852" height="478" key="GridCell.Tab.1.center" timestamp="1620649287812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="205" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620308138559" />
-    <state width="1852" height="205" key="GridCell.Tab.1.left" timestamp="1620308138559">
+    <state width="1852" height="478" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620649287812" />
+    <state width="1852" height="478" key="GridCell.Tab.1.left" timestamp="1620649287812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="205" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620308138559" />
-    <state width="1852" height="205" key="GridCell.Tab.1.right" timestamp="1620308138559">
+    <state width="1852" height="478" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620649287812" />
+    <state width="1852" height="478" key="GridCell.Tab.1.right" timestamp="1620649287812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="205" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620308138559" />
-    <state width="1852" height="478" key="GridCell.Tab.2.bottom" timestamp="1620231811298">
+    <state width="1852" height="478" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620649287812" />
+    <state width="1852" height="478" key="GridCell.Tab.2.bottom" timestamp="1620400304427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="478" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620231811298" />
-    <state width="1852" height="478" key="GridCell.Tab.2.center" timestamp="1620231811298">
+    <state width="1852" height="478" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620400304427" />
+    <state width="1852" height="478" key="GridCell.Tab.2.center" timestamp="1620400304427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="478" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620231811298" />
-    <state width="1852" height="478" key="GridCell.Tab.2.left" timestamp="1620231811298">
+    <state width="1852" height="478" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620400304427" />
+    <state width="1852" height="478" key="GridCell.Tab.2.left" timestamp="1620400304427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="478" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620231811298" />
-    <state width="1852" height="478" key="GridCell.Tab.2.right" timestamp="1620231811298">
+    <state width="1852" height="478" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620400304427" />
+    <state width="1852" height="478" key="GridCell.Tab.2.right" timestamp="1620400304427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="478" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620231811298" />
+    <state width="1852" height="478" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620400304427" />
     <state x="473" y="93" key="NewModule_or_Project.wizard" timestamp="1618409361722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -562,18 +544,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="900" height="642" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615691918298" />
-    <state x="0" y="82" width="1920" height="907" key="new project wizard" timestamp="1620302215367">
+    <state x="0" y="82" width="1920" height="907" key="new project wizard" timestamp="1620738941393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="82" width="1920" height="907" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1620302215367" />
+    <state x="0" y="82" width="1920" height="907" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1620738941393" />
     <state x="447" y="228" width="1009" height="1469" key="run.anything.popup" timestamp="1615561487714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="447" y="228" width="1009" height="1469" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615561487714" />
-    <state x="576" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1620308201113">
+    <state x="576" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1620308257170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="576" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1620308201113" />
+    <state x="576" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1620308257170" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -591,7 +573,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/nacos-payment-service9002/src/main/java/nacos/controller/RedisController.java</url>
           <line>37</line>
-          <properties class="nacos.controller.RedisController" method="setKey">
+          <properties class="nacos.controller.RedisController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />

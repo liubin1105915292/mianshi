@@ -10,6 +10,11 @@ spring:
   application:
     name: nacos-provider
   cloud:
+    sentinel:
+      transport:
+        #默认8719端口,如果占用就会自己+1
+        port: 8719
+        dashboard: localhost:8080
     nacos:
       config:
         #配置文件从nacos配置中心读取
@@ -17,4 +22,3 @@ spring:
         file-extension: yaml
       discovery:
         server-addr: localhost:8848
-
