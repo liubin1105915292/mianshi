@@ -24,6 +24,7 @@
     <module>nacos-payment-service9002</module>
       <module>nacos-consumer83</module>
     <module>cloudalibaba-config-nacos-client3377</module>
+    <module>commonTest</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -34,6 +35,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <junit.version>4.12</junit.version>
     <log4j.version>1.2.12</log4j.version>
+    <mybatis-plus.version>3.1.0</mybatis-plus.version>
     <lombok.version>1.16.18</lombok.version>
     <mysql.version>5.1.47</mysql.version>
     <druid.version>1.1.21</druid.version>
@@ -107,7 +109,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
   <build>
     <plugins>
       <plugin>
